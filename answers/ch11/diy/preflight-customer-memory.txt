@@ -1,0 +1,7 @@
+누가 만들었나        : 공식 (modelcontextprotocol/servers 저장소)
+어디서 도나          : 로컬
+안내판(도구 목록)    : 읽기 도구 3개(Read Graph, Search Nodes, Open Nodes),
+                      바꾸는 도구 6개(Create Entities, Create Relations, Add Observations, Delete 세 가지)
+열어 주는 범위       : 따로 제한하는 설정은 없음. MEMORY_FILE_PATH는 기억을 저장하는 위치일 뿐
+                      (서버가 그 파일에만 닿도록 막는 설정이 아님)
+바꾸는 도구 권한 계획 : Delete 세 가지는 차단, 만들기·더하기는 승인 창에서 내용을 확인하고 허용

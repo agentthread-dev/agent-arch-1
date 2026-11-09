@@ -1,0 +1,1 @@
+기본 폴더 접근 말고 Filesystem 확장 도구로 /Users/사용자이름/Desktop/book-practice/weekly-notes/this_week.txt를 읽고, 보고서를 만들어서 같은 폴더에 weekly_report.md로 저장해 줘.

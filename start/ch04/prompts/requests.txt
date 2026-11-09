@@ -1,0 +1,22 @@
+기본 폴더 접근 말고 Filesystem 확장 도구로 작업해 줘.
+바탕화면의 book-practice 폴더에 있는 meeting_memo.txt를 정리해서, 공유 메일 초안을
+같은 폴더에 draft_mail.md로 저장해 줘.
+
+기본 폴더 접근 말고 Filesystem 확장 도구로 작업해 줘.
+이제 확인 단계야. 바탕화면의 book-practice 폴더에 있는 meeting_memo.txt(원본)와
+draft_mail.md(초안)를 둘 다 다시 읽고 대조해 줘.
+
+[확인 기준]
+- 원본의 할 일이 초안에 빠짐없이 들어갔는가
+- 담당자와 마감일이 원본과 정확히 같은가
+- 원본에 없는 내용을 지어낸 부분은 없는가
+
+[규칙]
+- 초안을 고치지 말고, 문제점만 표로 정리해서 같은 폴더에 review.md로 저장해 줘
+- 문제가 없으면 review.md에 "문제 없음"이라고 적어 줘
+
+기본 폴더 접근 말고 Filesystem 확장 도구로 작업해 줘.
+확인 단계가 바탕화면의 book-practice 폴더에 review.md를 남겼어. 같은 폴더의
+draft_mail.md(현재 초안)와 review.md를 둘 다 다시 읽고, meeting_memo.txt와 대조해
+맞는 지적만 반영해서 최종본을 final_mail.md로 저장해 줘. 문제 없음이면 초안을
+그대로 최종본으로 저장해.

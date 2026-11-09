@@ -1,0 +1,1 @@
+inbox/2026-11 폴더 이름을 inbox/practice-2026-11로 바꿔 줘. 그다음 ~/Desktop/book-practice/ch11/inquiries_nov.txt의 문의 12개를 한 통씩 inbox/2026-11/2026-11-001.txt ~ 012.txt로 만들어 줘. 각 파일 첫 줄은 "제목: (문의를 짧게)", 둘째 줄은 "받은 날: 2026-11-DD", 빈 줄 다음에 문의 원문이야. ~/Desktop/book-practice/ch11/last_month.txt는 작업 폴더로 복사해 줘.

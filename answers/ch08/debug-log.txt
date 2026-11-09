@@ -1,0 +1,5 @@
+[디버깅 기록 — customer-reply]
+B1 | ① 분류 Skill이 안 불림 | 3번 중 3번 | customer-reply description이 넓어 경계가 흐려짐 | description 복원 | T3·C1 inquiry-classify / T1·R3 읽음 실패 남음
+B2 | ③ 참고 파일 읽기 실패 | 3번 중 3번 | 절차 2번 경로 오타(reference)      | references로 수정 | T1·R3 정책 바로 읽음
+B3 | (없음, 잠복 위험)  | 재현 안 됨 | 확인 기준이 막연함("최대한 배려")   | 확인 기준 첫 줄 복원(예방) | T3 한 번 Skill 없이 답함 → B4로
+B4 | ① T3에서 가끔 안 불림 | 관찰 중 | 문의가 적어 직접 세도 된다고 판단? | (검토: classify description에 사용자 표현 추가) |

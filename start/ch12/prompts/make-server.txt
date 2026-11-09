@@ -1,0 +1,19 @@
+이 폴더에 Python MCP 서버 "inquiry-box"를 만들어 줘. uv 프로젝트로 하고, 공식 MCP SDK(mcp)의 MCPServer를 써.
+서버 코드는 이 폴더 맨 위에 server.py 한 파일로 만들어 줘. (uv run server.py로 바로 실행되게)
+
+[데이터]
+- inbox/<YYYY-MM>/<YYYY-MM-NNN>.txt : 문의 파일. 첫 줄 "제목: …", 둘째 줄 "받은 날: …", 빈 줄, 본문
+- drafts/<문의번호>.md : 답장 초안
+- 샘플 문의 5통을 inbox/2026-11에 만들어 줘 (배송 지연, 사이즈 교환, 반품 후 환불 시점, 영수증 재발급, 배송 조회 번호)
+
+[도구] 설명은 한국어로, 무엇을 하고 언제 쓰고 무엇은 하지 않는지
+- list_inquiries(month): 그 달 문의 목록(번호, 제목, 받은 날). 본문은 돌려주지 않음. 읽기 전용
+- read_inquiry(inquiry_id): 문의 전문. 읽기 전용
+- save_reply_draft(inquiry_id, text): drafts에 초안 저장. 고객에게 보내지 않음. 이미 있으면 덮어쓰지 않고 오류
+- 각 도구에 성격 표시(annotations)를 붙여 줘
+
+[원칙]
+- stdout에는 아무것도 출력하지 마 (로그는 stderr)
+- month와 문의 번호는 정규식으로 검사해서 다른 폴더로 빠져나갈 수 없게
+- 오류는 다음에 무엇을 하면 되는지 알려 주는 한국어 문장으로
+- pytest 테스트도 만들고, 다 만들면 테스트를 돌려서 통과하는 걸 보여 줘

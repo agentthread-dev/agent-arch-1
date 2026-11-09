@@ -1,0 +1,12 @@
+book-skills/
+├── meeting-agenda/
+│   ├── SKILL.md
+│   ├── assets/agenda-template.md      ← 지난주 결정 확인 / 이번 주 안건 / 시간 배분 / 결정 필요 사항
+│   └── references/
+│       ├── writing-rules.md           ← 안건 하나에 담당자 1명, 시간은 5분 단위
+│       └── examples.md                ← 잘 된 안건지 1개, 회의가 길어졌던 안건지 1개
+└── meeting-agenda-안내.txt
+
+- 안건별 시간의 합이 회의 시간(60분)을 넘지 않는가 (합계 계산식 표시)
+- 지난주 회의록의 "결정 필요" 항목이 이번 안건에 빠짐없이 들어갔는가
+- 담당자가 정해지지 않은 안건은 "담당 미정"으로 표시했는가

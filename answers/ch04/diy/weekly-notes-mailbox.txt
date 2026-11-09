@@ -1,0 +1,25 @@
+[우편함 규칙] 모두 book-practice/weekly-notes 폴더 안
+- this_week.txt      : 원본 업무 메모 (모든 단계가 읽기만)
+- weekly_report.md   : 초안 단계가 쓰고, 확인 단계가 읽음
+- report_review.md   : 확인 단계가 쓰고, 마무리 단계가 읽음
+- weekly_final.md    : 마무리 단계가 최종본으로 씀
+
+기본 폴더 접근 말고 Filesystem 확장 도구로 작업해 줘.
+바탕화면의 book-practice/weekly-notes 폴더에 있는 this_week.txt로 보고서 만들어서 같은 폴더에 weekly_report.md로 저장해 줘.
+
+기본 폴더 접근 말고 Filesystem 확장 도구로 작업해 줘.
+이제 확인 단계야. 바탕화면의 book-practice/weekly-notes 폴더에 있는 this_week.txt(원본)와
+weekly_report.md(보고서 초안)를 둘 다 다시 읽고 대조해 줘.
+
+[확인 기준]
+- 원본 메모의 업무가 보고서에 빠짐없이 들어갔는가
+- 숫자와 날짜가 원본과 정확히 같은가
+- 원본에 없는 내용을 지어낸 부분은 없는가
+- 결정이 필요한 사항이 맨 아래 "요청 사항"에 모였는가
+
+[규칙]
+- 보고서를 고치지 말고, 문제점만 표로 정리해서 같은 폴더에 report_review.md로 저장해 줘
+
+기본 폴더 접근 말고 Filesystem 확장 도구로 작업해 줘.
+같은 폴더에 report_review.md가 생겼어. weekly_report.md와 report_review.md를
+다시 읽고, this_week.txt와 대조해 맞는 지적만 반영해서 같은 폴더에 weekly_final.md로 저장해 줘.

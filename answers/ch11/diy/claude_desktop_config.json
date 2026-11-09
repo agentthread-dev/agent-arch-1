@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "reference-files": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/사용자이름/Desktop/book-reference"
+      ]
+    },
+    "customer-memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {
+        "MEMORY_FILE_PATH": "/Users/사용자이름/Desktop/book-reference/customer-memory.jsonl"
+      }
+    }
+  }
+}

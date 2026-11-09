@@ -1,0 +1,9 @@
+[동료가 바꾼 곳]
+1. SKILL.md의 description 전체를 아래로 바꿈
+   description: 고객 문의를 처리할 때 사용한다.
+
+2. SKILL.md 절차 2번의 파일 경로를 아래로 바꿈
+   2. `reference/policy.md`를 읽고, 그 유형에 해당하는 정책 문장을 찾는다
+
+3. SKILL.md 확인 기준 첫 줄을 아래로 바꿈
+   - 고객이 만족할 수 있도록 최대한 배려했는가

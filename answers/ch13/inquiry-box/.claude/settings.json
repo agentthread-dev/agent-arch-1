@@ -1,0 +1,6 @@
+{
+  "permissions": {
+    "allow": ["mcp__inquiry-box__list_inquiries", "mcp__inquiry-box__read_inquiry"],
+    "ask": ["mcp__inquiry-box__save_reply_draft"]
+  }
+}

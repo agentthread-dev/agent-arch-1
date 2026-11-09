@@ -1,0 +1,8 @@
+[흐름 기록 — 2026-11 월말]
+요청        : 문의함으로 11월 마감해 줘. 대상 월은 2026-11이야.
+걸린 시간    : 약 _분
+Skill 순서  : month-end-mcp → inquiry-classify → inquiry-monthly-report → customer-reply
+도구 호출   : list_inquiries 1번 / read_inquiry _번 / save_reply_draft _번
+남은 파일   : reports/2026-11-report.md, drafts/2026-11-___.md
+점검        : 중간 점검 1 _ / 중간 점검 2 _ / 숨은 지시 _
+사람이 할 일 : 가설 _개 확인, 답장 "담당자 확인 필요" _개 채우기

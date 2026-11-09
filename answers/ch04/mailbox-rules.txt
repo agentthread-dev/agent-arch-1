@@ -1,0 +1,5 @@
+[우편함 규칙] 모두 book-practice 폴더 안
+- meeting_memo.txt   : 원본 (모든 단계가 읽기만)
+- draft_mail.md      : 초안 단계가 쓰고, 확인 단계가 읽음
+- review.md          : 확인 단계가 쓰고, 마무리 단계가 읽음
+- final_mail.md      : 마무리 단계가 최종본으로 씀
